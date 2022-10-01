@@ -9,67 +9,69 @@ margin: 0;
     border: 1px solid red;
     background-color: #fff;
     display: flex;
+    position: sticky;
 }
-#innav{
-    border: 1px solid black;
-    margin-left: 60px;
-    gap: 50px;
-    display: flex;
-   
+#logo{
+    display: block;
+    margin:auto;
 }
-#innav>h3{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-#img1{
-    border: 1px solid red;
-    margin: auto;
-    margin-left: 280px;
-}
-#img1>img{
-    height: 40px;
-    /* display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
-    margin-top: -50px; */
-
+#logo>img{
+    height: 30px;
     
 }
-#img2{
-    display: flex;
-    margin-right: 240px;
-}
-#img3{
-    display: flex;
-    /* margin-right: 240px; */
-}
-#img2>img{
-    height: 30px;
-    margin: auto;
-}
-#img3>img{
-    height: 30px;
-    margin: auto;
-    margin-left: -230px;
-}
-#img2>p{
-    height: 40px;
-    margin: auto;
+#nav h3{
+    margin-left: 50px;
     margin-top: 40px;
 }
-/* #img2>img{
-    height: 40px;
-    margin-right: 250px;
-    
-    margin-top: 30px;
-   
-    
-    
+.loc{
+    height: 30px;
+    margin:auto 0px auto 0px;
 }
-#img2>p{
-    margin-right: 250px;
-    
-    margin-top: 30px;
-} */
+#nav>p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 60px;
+}
+.srch{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+    margin-left: -50px;
+    height: 30px;
+}
+.prof{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -100px;
+    margin-right: 60px;
+    height: 90px;
+}
+.bag{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50px;
+    margin-left: -70px;
+    margin-right: 30px;
+}
+#slide{
+    width: 100%;
+    position: relative;
+}
+#slide>img{
+    width: 100%;
+}
+#slide>button{
+    position: absolute;
+    top: 50%;
+    background:none;
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+    transition:0.5s;
+}
+button:nth-child(2){
+    left: 10px;
+}
+button:nth-child(3){
+    right: 10px;
+}
